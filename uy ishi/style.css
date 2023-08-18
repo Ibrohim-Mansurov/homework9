@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-contener{
+    width: 1120px;
+    min-height: 804px;
+}
+
+.nav{
+    text-align: center;
+    color: #000;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 56px;
+}
+
+.article{
+    width: 56px;
+    height: 2px;
+    margin: auto;
+    margin-top: 26px;
+    background-color: #000;
+    border-radius: 5px;
+}
+
+.card-contener2{
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 350px;
+    height: 512px;
+    box-shadow: 10px 40px 50px 0px rgba(229, 233, 246, 0.40);   
+}
+
+.card-img{
+    border-radius: 20px 20px 0px 0px;
+}
+.card h2,p,a{
+    width: 251px;
+    margin-left: 33px;
+}
+
+h2{
+    color: #000;
+    margin-top: 21px;
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 32px;
+}
+p{
+    color: #7D7987;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 25px;
+    font-weight: 300;
+    line-height: 28px;
+}
+.card-link{
+    color: #4089ED;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 28px; 
+    text-decoration: none;
+}
+button{
+    margin: auto;
+    margin-top: 69px;
+    border-radius: 25px;
+     width: 160px;
+     height: 45px;
+     transition: 0.9s;
+     border:1px solid #4089ED;
+     color: #4089ED;
+     background-color: rgb(0, 0, 0);
+     font-weight: 700;
+     box-shadow: 0 0 5px black,
+        0 0 25px black;
+}
+button:hover{
+    background: radial-gradient(circle, rgba(177,109,36,1) 0%, rgba(240,153,0,1) 11%, rgba(241,255,0,1) 15%, rgba(246,162,51,1) 27%, rgba(223,241,43,1) 31%, rgba(40,173,129,1) 45%, rgba(37,61,237,1) 53%, rgba(17,227,196,1) 75%, rgba(31,233,210,1) 79%, rgba(16,208,231,1) 89%, rgba(0,212,255,1) 100%);
+    color: black;
+    box-shadow: 0 0 5px orange,
+    0 0 25px orange,0 0 5px orange,
+    0 0 100px orange, 0 0 200vh orange;  
+    cursor: pointer; 
+    transform: scale(1.5); 
+}
